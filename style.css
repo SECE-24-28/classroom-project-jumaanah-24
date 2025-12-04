@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 400px;
+    background: #bcd8e8;
+    padding: 20px;
+    margin: 150px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    
+}
+
+.wrapper h1{
+    text-align: center;   
+}
+
+.input-box{
+    margin-bottom: 15px;
+    padding:20px;
+}
+
+.input-box input{
+    width: 98%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius:10px;
+}
+
+.remember-forgot a{
+    color: rgb(189, 0, 0);
+    padding:5px;
+}
+
+.btn{
+    width: 95%;
+    margin:10px;
+    padding: 10px;
+    font-size: 18px;
+    background: #eee;
+    color: red;
+    border-radius: 15px;
+}
+
+.register-link{
+    text-align: center;
+}
+
+.register-link a{
+    color: red;
+
+}
